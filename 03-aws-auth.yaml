@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   mapRoles: |
-    - rolearn: arn:aws:iam::306237160524:role/eksctl-roboshop-dev-nodegroup-robo-NodeInstanceRole-B3LDHr1A6mq8
+    - rolearn: arn:aws:iam::306237160524:role/eksctl-roboshop-dev-nodegroup-robo-NodeInstanceRole-XesTbzlgNzsb
       groups:
       - system:bootstrappers
       - system:nodes
@@ -9,12 +9,12 @@ data:
   mapUsers: |
     - groups:
       - roboshop-trainee
-      userarn: arn:aws:iam::306237160524:user/suresh
-      username: suresh
+      userarn: arn:aws:iam::306237160524:user/sureshuu
+      username: sureshuu
 kind: ConfigMap
 metadata:
-  creationTimestamp: "2026-07-15T04:28:08Z"
+  creationTimestamp: "2026-07-20T04:44:42Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "1214"
-  uid: 41ce40b8-511e-49d7-a781-b813615a5a92
+  resourceVersion: "1218"
+  uid: a9c74bf6-8e3a-4ef6-be5d-84063e300a0f
